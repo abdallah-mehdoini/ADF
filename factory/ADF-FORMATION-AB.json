@@ -1,0 +1,9 @@
+{
+	"name": "ADF-FORMATION-AB",
+	"location": "francecentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "41787182-58f1-458f-b629-92601649c9ad",
+		"tenantId": "dab7d5be-3d32-41f6-b6b4-f31ecf90c7af"
+	}
+}
