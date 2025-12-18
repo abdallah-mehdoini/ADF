@@ -1,7 +1,0 @@
-{
-	"name": "AzureDataLakeStorage2",
-	"properties": {
-		"type": "AzureBlobFS",
-		"annotations": []
-	}
-}
