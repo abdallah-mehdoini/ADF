@@ -13,6 +13,10 @@
 			"Databasename": {
 				"type": "string",
 				"value": "adfsql"
+			},
+			"adminuser": {
+				"type": "string",
+				"value": "Abdallah"
 			}
 		}
 	},
