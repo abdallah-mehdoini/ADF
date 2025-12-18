@@ -5,6 +5,20 @@
 			"referenceName": "AzureSqlDatabase1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"Servename": {
+				"type": "string"
+			},
+			"Databasename": {
+				"type": "string"
+			},
+			"schmea": {
+				"type": "string"
+			},
+			"Table": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
