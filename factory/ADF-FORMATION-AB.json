@@ -1,5 +1,13 @@
 {
 	"name": "ADF-FORMATION-AB",
+	"properties": {
+		"globalParameters": {
+			"Base_URL": {
+				"type": "string",
+				"value": "cv"
+			}
+		}
+	},
 	"location": "francecentral",
 	"identity": {
 		"type": "SystemAssigned",
