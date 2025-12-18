@@ -9,6 +9,10 @@
 			"servername ": {
 				"type": "string",
 				"value": "mssqladfformation.database.windows.net"
+			},
+			"Databasename": {
+				"type": "string",
+				"value": "adfsql"
 			}
 		}
 	},
