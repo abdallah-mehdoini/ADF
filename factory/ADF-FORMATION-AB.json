@@ -17,6 +17,10 @@
 			"adminuser": {
 				"type": "string",
 				"value": "Abdallah"
+			},
+			"Password": {
+				"type": "string",
+				"value": "Machin44$$Machin44$$"
 			}
 		}
 	},
