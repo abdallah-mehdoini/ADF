@@ -1,0 +1,11 @@
+{
+	"name": "PL_Generic_Ingestion",
+	"properties": {
+		"parameters": {
+			"pl_target_file": {
+				"type": "string"
+			}
+		},
+		"annotations": []
+	}
+}
