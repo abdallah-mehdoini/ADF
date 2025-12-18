@@ -5,6 +5,10 @@
 			"Base_URL": {
 				"type": "string",
 				"value": "cv"
+			},
+			"servername ": {
+				"type": "string",
+				"value": "mssqladfformation.database.windows.net"
 			}
 		}
 	},
