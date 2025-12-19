@@ -1,0 +1,37 @@
+{
+	"name": "ds_Formation",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"ds_folder": {
+				"type": "string"
+			},
+			"ds_filename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().ds_filename",
+					"type": "Expression"
+				},
+				"fileSystem": {
+					"value": "@dataset().ds_folder",
+					"type": "Expression"
+				}
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
